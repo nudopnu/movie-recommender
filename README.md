@@ -1,4 +1,4 @@
-# Movie Recommender
+# Movie Recommender 🎬
 
 This is an Ionic App that uses
 [The Movie Database (TMDb)](https://www.themoviedb.org/) to browse a list of
@@ -29,7 +29,7 @@ API_KEY="<your-api-key>"
 2. Start the server with
 
 ```
-deno run --allow-net net_client.ts
+deno run --allow-net --allow-read main.ts
 ```
 
 3. Start the client app by navigating to `./app/src/` and running
